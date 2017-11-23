@@ -1,6 +1,3 @@
-base = [1.0 0 0;0 1 1;0 1 2]
-
-
 function projection(ui,gi)
 	vec(dot(vec(ui),vec(gi))*gi)
 end
